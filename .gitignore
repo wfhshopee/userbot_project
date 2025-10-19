@@ -1,0 +1,23 @@
+# Abaikan file pycache dan log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Abaikan file environment / virtualenv
+.env
+venv/
+ENV/
+env/
+.python-version
+
+# Abaikan file data lokal
+*.json
+broadcasts.json
+groups.json
+state.json
+
+# Abaikan file system
+.DS_Store
+Thumbs.db
